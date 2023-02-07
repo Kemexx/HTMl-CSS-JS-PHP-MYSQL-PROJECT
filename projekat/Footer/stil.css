@@ -1,0 +1,156 @@
+body{
+  
+  padding: 0;
+  margin: 0;
+  background-color: #ffffff;
+}
+
+.container{
+	width:80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+ul {
+	margin: 0;
+	padding: 0;
+
+}
+
+/* HEADER */
+
+header{
+	background-color:  #1c2e4a;
+	color: white;
+    padding-top: 30px;
+    min-height: 70px;
+	border-bottom: #e8491d 3px solid;
+}
+
+header a{
+	color: white;
+	text-transform: uppercase;
+	text-decoration: none;
+	font-size: 20px;
+}
+
+
+header li {
+	float: left;
+	display: inline;
+	padding: 0 20px 0 20px; 
+}
+
+header #branding {
+	float: left;
+
+}
+
+header #branding h1 {
+	margin: 0;
+}
+
+header nav {
+	float: right;
+    margin-top: 30px;
+}
+
+header .highlight {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+header a:hover {
+	color: #e8491d;
+	font-weight: bold;
+}
+
+/* Showcase */
+ 
+ #showcase {
+ 	min-height: 600px;
+ 	background: linear-gradient(rgba(0,0, 0,0.4) , rgba(0,0,0,0.4)) , url(./ces.jpg) no-repeat ;
+ 	background-size: cover;
+ 	background-position: center;
+ 	color: #ffffff;
+ 	text-align: center;
+
+ }
+
+ #showcase h1 {
+ 	font-family: 'Anton', sans-serif;
+    font-size: 50px;
+ 	margin-top: 250px;
+ 	padding: 0;
+ 	text-shadow: 5px 4px 5px black;
+
+ }
+
+
+ #showcase p {
+ 	font-family: 'Caveat', cursive;
+ 	font-size: 25px;
+ 	margin-top: -20px;
+ 	text-shadow: 5px 4px 5px black;
+ }
+
+
+/* BOXES */
+
+#boxes {
+	margin-top: 25px;
+  }
+
+#boxes .box {
+	float: left;
+	width: 30%;
+	text-align: center;
+	
+}
+
+#boxes .box img {
+	width: 150px;
+	height: 160px;
+}
+
+
+/* FOOTER */
+
+footer {
+	min-height: 30px;
+	background-color:blue ;
+	color: white;
+	text-align: center;
+
+}
+
+footer p { 
+	
+     padding-top: 7px;
+	
+	 }
+
+/*Signup */
+
+#signed	 button {
+	margin-left: 5px;
+	padding:0;
+	color: #ffffff;
+	background-color: #e8491d;
+	height: 36px;
+	width: 90px;
+	cursor: pointer;
+	border: none;
+}
+
+
+
+
+
+
+        
+
+
+
+
+
